@@ -106,10 +106,6 @@ extension HalfASheet {
             
             VStack {
                 HStack {
-                    Image(systemName: "xmark.circle.fill")
-                        .font(Font.title.weight(.semibold))
-                        .opacity(0)
-                        .padding(EdgeInsets(top: 10, leading: 13, bottom: 0, trailing: 0))
                     Spacer()
                     Text(title)
                         .font(Font.headline.weight(.semibold))
