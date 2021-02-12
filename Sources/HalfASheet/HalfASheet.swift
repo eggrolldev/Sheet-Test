@@ -14,7 +14,7 @@ public struct HalfASheet<Content: View>: View {
     @State private var hasAppeared = false
     @State private var dragOffset: CGFloat = 0
     
-    internal var height: HalfASheetHeight = .proportional(0.84) // about the same as a ColorPicker
+    internal var height: HalfASheetHeight = .proportional(0.5) // about the same as a ColorPicker
     internal var contentInsets = EdgeInsets(top: 7, leading: 16, bottom: 12, trailing: 16)
     internal var backgroundColor: UIColor = .tertiarySystemGroupedBackground
     internal var closeButtonColor: UIColor = .gray
