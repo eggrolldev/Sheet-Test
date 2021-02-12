@@ -70,7 +70,7 @@ public struct HalfASheet<Content: View>: View {
                         ZStack {
                             
                             RoundedRectangle(cornerRadius: cornerRadius)
-                                .foregroundColor(.white)
+                                .foregroundColor(.black)
                             RoundedRectangle(cornerRadius: cornerRadius)
                                 .foregroundColor(Color(backgroundColor))
                             
