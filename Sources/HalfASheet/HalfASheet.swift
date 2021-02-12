@@ -116,8 +116,6 @@ extension HalfASheet {
                         .padding(EdgeInsets(top: 18, leading: 0, bottom: 0, trailing: 0))
                         .lineLimit(1)
                     Spacer()
-                    closeButton
-                        .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 13))
                 }
                 Spacer()
             }
@@ -127,8 +125,6 @@ extension HalfASheet {
             VStack {
                 HStack {
                     Spacer()
-                    closeButton
-                        .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 13))
                 }
                 Spacer()
             }
