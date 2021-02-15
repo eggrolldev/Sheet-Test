@@ -49,7 +49,7 @@ public struct HalfASheet<Content: View>: View {
     
     private let title: String?
     private let content: () -> Content
-    private let cornerRadius: CGFloat = 15
+    private let cornerRadius: CGFloat = 20
     private let additionalOffset: CGFloat = 44 // this is so we can drag the sheet up a bit
     
     private var actualContentInsets: EdgeInsets {
