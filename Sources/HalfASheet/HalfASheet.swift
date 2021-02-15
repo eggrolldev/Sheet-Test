@@ -76,6 +76,8 @@ public struct HalfASheet<Content: View>: View {
                                 .foregroundColor(Color(backgroundColor))
                             
                             content()
+                                .padding(actualContentInsets)
+                            
                             titleView
                         }
                         .frame(height: height.value(with: geometry) + cornerRadius + additionalOffset)
