@@ -15,8 +15,8 @@ public struct HalfASheet<Content: View>: View {
     @State private var dragOffset: CGFloat = 0
     
     internal var height: HalfASheetHeight = .proportional(0.25) // about the same as a ColorPicker
-    internal var contentInsets = EdgeInsets(top: 7, leading: 16, bottom: 12, trailing: 16)
-    internal var backgroundColor = UIColor(hex: "#25265F")
+    internal var contentInsets = EdgeInsets(top: 0, leading: 16, bottom: 12, trailing: 16)
+    internal var backgroundColor: UIColor = .gray
     internal var closeButtonColor: UIColor = .gray
     internal var allowsDraggingToDismiss = true
     
@@ -71,7 +71,7 @@ public struct HalfASheet<Content: View>: View {
                         ZStack {
                             
                             RoundedRectangle(cornerRadius: cornerRadius)
-                                .foregroundColor(Color(backgroundColor))
+                                .foregroundColor(.black)
                             RoundedRectangle(cornerRadius: cornerRadius)
                                 .foregroundColor(Color(backgroundColor))
                             
