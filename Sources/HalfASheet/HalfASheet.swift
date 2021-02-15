@@ -72,7 +72,7 @@ public struct HalfASheet<Content: View>: View {
                 
                 if isPresented {
                     
-                    Color.black.opacity(0.0)
+                    Color.black.opacity(0.15)
                         .onTapGesture {
                             dismiss()
                         }
