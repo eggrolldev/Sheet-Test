@@ -42,7 +42,7 @@ public struct HalfASheet<Content: View>: View {
     @State private var dragOffset: CGFloat = 0
     
     internal var height: HalfASheetHeight = .proportional(0.25) // about the same as a ColorPicker
-    internal var contentInsets = EdgeInsets(top: 7, leading: 16, bottom: 12, trailing: 16)
+    internal var contentInsets = EdgeInsets(top: 7, leading: 16, bottom: 0, trailing: 16)
     internal var backgroundColor: UIColor = UIColor(hex: "#25265F")!
     internal var closeButtonColor: UIColor = .gray
     internal var allowsDraggingToDismiss = true
